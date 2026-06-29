@@ -1,0 +1,15 @@
+{
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ],
+  "functions": {
+    "app/api/submit-lead/route.ts": {
+      "maxDuration": 30
+    }
+  }
+}
