@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.vercel/
+dist/
+coverage/
+*.log
+package-lock.json
+*.lock
+.env*
+supabase-*.sql
